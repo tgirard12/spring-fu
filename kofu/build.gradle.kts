@@ -17,6 +17,7 @@ dependencies {
 
 	compileOnly("org.springframework:spring-webmvc")
 	compileOnly("org.springframework:spring-webflux")
+	compileOnly("org.springframework.boot:spring-boot-starter-amqp")
 	compileOnly("de.flapdoodle.embed:de.flapdoodle.embed.mongo")
 	compileOnly("org.springframework.data:spring-data-mongodb")
 	compileOnly("org.mongodb:mongodb-driver-reactivestreams")
@@ -31,6 +32,7 @@ dependencies {
 	testImplementation("org.springframework:spring-test")
 	testImplementation("io.projectreactor:reactor-test")
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+	testImplementation("org.springframework.boot:spring-boot-starter-amqp")
 	testImplementation("org.springframework.boot:spring-boot-starter-web")
 	testImplementation("org.springframework.boot:spring-boot-starter-webflux")
 	testImplementation("org.springframework.boot:spring-boot-starter-tomcat")
