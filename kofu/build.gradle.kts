@@ -17,6 +17,7 @@ dependencies {
 
 	compileOnly("org.springframework:spring-webmvc")
 	compileOnly("org.springframework:spring-webflux")
+	compileOnly("org.springframework.boot:spring-boot-starter-amqp")
 	compileOnly("de.flapdoodle.embed:de.flapdoodle.embed.mongo")
 	compileOnly("org.springframework.data:spring-data-mongodb")
 	compileOnly("org.mongodb:mongodb-driver-reactivestreams")
